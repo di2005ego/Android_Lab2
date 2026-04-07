@@ -34,7 +34,7 @@ gen/
 out/
 release/
 
-# Keystore files (ваши ключи подписи)
+# Keystore files
 *.jks
 *.keystore
 *.keys
