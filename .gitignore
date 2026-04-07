@@ -1,0 +1,96 @@
+# Gradle files
+.gradle/
+build/
+gradle/
+gradlew
+gradlew.bat
+local.properties
+
+# IDE files
+.idea/
+*.iml
+*.iws
+*.ipr
+.classpath
+.project
+.settings/
+.vscode/
+.mvn/
+
+# Android generated files
+/app/build/
+/captures/
+.externalNativeBuild/
+.cxx/
+*.apk
+*.aab
+*.ap_
+*.dex
+*.class
+*.jar
+*.aar
+bin/
+gen/
+out/
+release/
+
+# Keystore files (ваши ключи подписи)
+*.jks
+*.keystore
+*.keys
+key.properties
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+*.bak
+*.tmp
+*.log
+
+# Firebase / Google services
+google-services.json
+GoogleService-Info.plist
+
+# Secrets and sensitive data
+secrets.properties
+gradle.properties (если там есть пароли)
+
+# NDK
+obj/
+jniLibs/
+*.so
+
+# Testing
+/test-coverage/
+/testResults/
+/test_output/
+
+# Backup files
+*.backup
+*.old
+*.orig
+
+# Android Studio
+navigation/
+.settings/
+.project
+.classpath
+.factorypath
+.gradle/
+
+# Performance
+*.hprof
+
+# Keystore directory
+/keystore/
+/keys/
+
+# Other
+*.swp
+*~
+*.lock
